@@ -41,7 +41,7 @@ What is the total explained variance of the three principal components?
 Create a new DataFrame with the PCA data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.  
 
 The first five rows of the PCA DataFrame should appear as follows:  
-![](pics/Screenshot%202024-05-27%20195959.png)  
+![](pics/Screenshot%202024-05-27%20195941.png)  
  
 ***Find the Best Value for k Using the PCA Data***  
 
@@ -68,7 +68,11 @@ Predict the clusters to group the cryptocurrencies using the PCA data.
 Create a copy of the DataFrame with the PCA data and add a new column to store the predicted clusters.  
 Create a scatte rplot using pandas’ plot as follows:  
 Set the x-axis as "PC1" and the y-axis as "PC2".  
+
+![](pics/Screenshot%202024-05-27%20195926.png)   
+
 ![](pics/Screenshot%202024-05-27%20200016.png)   
+
 
 ***Determine the Weights of Each Feature on Each Principal Component***  
 
