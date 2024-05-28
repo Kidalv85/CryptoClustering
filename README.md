@@ -4,7 +4,8 @@ Use the ***StandardScaler()*** module from scikit-learn to normalize the data fr
 
 Create a DataFrame with the scaled data and set the ***"coin_id"*** index from the original DataFrame as the index for the new DataFrame.  
 
-The first five rows of the scaled DataFrame should appear as follows:  
+The scaled DataFrame should appear as follows:  
+![](pics/Screenshot%202024-05-27%20195901.png)  
 
 ***Find the Best Value for k Using the Original Scaled DataFrame***  
 
@@ -28,6 +29,8 @@ Create a copy of the original data and add a new column with the predicted clust
 Create a scatterplot using pandas’ plot as follows:  
 Set the x-axis as ***"price_change_percentage_24h"*** and the y-axis as ***"price_change_percentage_7d"***.  
 
+![](pics/Screenshot%202024-05-27%20195913.png)  
+
 ***Optimize Clusters with Principal Component Analysis***  
 
 Using the original scaled DataFrame, perform a PCA and reduce the features to three principal components.  
@@ -38,6 +41,7 @@ What is the total explained variance of the three principal components?
 Create a new DataFrame with the PCA data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.  
 
 The first five rows of the PCA DataFrame should appear as follows:  
+![](pics/Screenshot%202024-05-27%20195959.png)  
  
 ***Find the Best Value for k Using the PCA Data***  
 
@@ -52,6 +56,8 @@ Answer the following questions in your notebook:
 What is the best value for k when using the PCA data?  
 Does it differ from the best k-value found using the original data?  
 
+![](pics/Screenshot%202024-05-27%20195959.png)  
+
 ***Cluster Cryptocurrencies with K-Means Using the PCA Data***   
 
 Use the following steps to cluster the cryptocurrencies for the best value for k on the PCA data:  
@@ -62,8 +68,7 @@ Predict the clusters to group the cryptocurrencies using the PCA data.
 Create a copy of the DataFrame with the PCA data and add a new column to store the predicted clusters.  
 Create a scatte rplot using pandas’ plot as follows:  
 Set the x-axis as "PC1" and the y-axis as "PC2".  
-Answer the following question:  
-What is the impact of using fewer features to cluster the data using K-Means?    
+![](pics/Screenshot%202024-05-27%20200016.png)   
 
 ***Determine the Weights of Each Feature on Each Principal Component***  
 
